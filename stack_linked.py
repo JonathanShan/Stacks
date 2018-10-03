@@ -10,7 +10,7 @@ class Stack:
         '''Creates and empty stack with a capacity'''
         self.capacity = capacity
         self.head = None
-        self.size = 0
+        self.num_items = 0
 
     def is_empty(self):
         '''Returns True if the stack is empty, and False otherwise
